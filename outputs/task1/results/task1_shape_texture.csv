@@ -1,0 +1,5 @@
+Model,Shape Bias (%),Coverage (%),N_shape,N_texture,N_other
+resnet,97.87,94.0,184,4,12
+vit,98.42,95.0,187,3,10
+clip,98.9,90.5,179,2,19
+clip_zs,98.34,90.5,178,3,19

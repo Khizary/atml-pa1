@@ -1,0 +1,10 @@
+Model,Transform,Cosine Stability
+resnet,Grayscale,0.8035550713539124
+resnet,Translation (32px),0.9201745986938477
+resnet,Patch Shuffle,0.6998223662376404
+vit,Grayscale,0.7330633401870728
+vit,Translation (32px),0.9490649700164795
+vit,Patch Shuffle,0.6301401257514954
+clip,Grayscale,0.8858835697174072
+clip,Translation (32px),0.9599543809890747
+clip,Patch Shuffle,0.7541151642799377

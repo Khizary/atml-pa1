@@ -1,0 +1,5 @@
+Model,Accuracy Drop,Consistency
+resnet,0.066,0.922
+vit,0.072,0.922
+clip,0.174,0.816
+clip_zs,0.154,0.798

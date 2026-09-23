@@ -1,0 +1,115 @@
+[{"stream_name":"stderr","time":11.501838063,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.501907979,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.501915753,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.501920641,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.25549123,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.255534876,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.255541984,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.255546407,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":17.905996566,"data":"  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":19.172237687,"data":"  Building wheel for wget (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":46.103090751,"data":"Using device: cuda\n"}
+,{"stream_name":"stdout","time":46.121014239,"data":"PACS dataset already exists.\n"}
+,{"stream_name":"stdout","time":83.240244087,"data":"DataLoaders prepared.\n"}
+,{"stream_name":"stdout","time":83.436575229,"data":"Training ERM...\n"}
+,{"stream_name":"stdout","time":83.689773136,"data":"Downloading: \"https://download.pytorch.org/models/resnet18-f37072fd.pth\" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth\n"}
+,{"stream_name":"stderr","time":83.690740247,"data":"\r  0%|          | 0.00/44.7M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stderr","time":83.79231375,"data":"\r  0%|          | 0.00/44.7M [00:00\u003c?, ?B/s]\r 18%|█▊        | 8.25M/44.7M [00:00\u003c00:00, 86.1MB/s]\n"}
+,{"stream_name":"stderr","time":83.891975301,"data":"\r 18%|█▊        | 8.25M/44.7M [00:00\u003c00:00, 86.1MB/s]\r 68%|██████▊   | 30.4M/44.7M [00:00\u003c00:00, 172MB/s] \n"}
+,{"stream_name":"stderr","time":83.954034118,"data":"\r 68%|██████▊   | 30.4M/44.7M [00:00\u003c00:00, 172MB/s] \r100%|██████████| 44.7M/44.7M [00:00\u003c00:00, 178MB/s]\n"}
+,{"stream_name":"stderr","time":83.99303835,"data":"\r100%|██████████| 44.7M/44.7M [00:00\u003c00:00, 178MB/s]\n"}
+,{"stream_name":"stderr","time":83.993075449,"data":"\n"}
+,{"stream_name":"stderr","time":83.993081634,"data":"\n"}
+,{"stream_name":"stdout","time":180.32002275,"data":"Epoch 1 - Loss: 0.5469 - Src Val Macro F1: 0.8971\n"}
+,{"stream_name":"stdout","time":236.739764651,"data":"Epoch 2 - Loss: 0.2593 - Src Val Macro F1: 0.8965\n"}
+,{"stream_name":"stdout","time":289.346889701,"data":"Epoch 3 - Loss: 0.1894 - Src Val Macro F1: 0.9142\n"}
+,{"stream_name":"stdout","time":341.274921325,"data":"Epoch 4 - Loss: 0.1432 - Src Val Macro F1: 0.9105\n"}
+,{"stream_name":"stdout","time":393.721243266,"data":"Epoch 5 - Loss: 0.1333 - Src Val Macro F1: 0.9292\n"}
+,{"stream_name":"stdout","time":445.99018915,"data":"Epoch 6 - Loss: 0.0946 - Src Val Macro F1: 0.9353\n"}
+,{"stream_name":"stdout","time":497.497613433,"data":"Epoch 7 - Loss: 0.1072 - Src Val Macro F1: 0.9265\n"}
+,{"stream_name":"stdout","time":548.656956159,"data":"Epoch 8 - Loss: 0.0694 - Src Val Macro F1: 0.9314\n"}
+,{"stream_name":"stdout","time":598.788753182,"data":"Epoch 9 - Loss: 0.0796 - Src Val Macro F1: 0.9278\n"}
+,{"stream_name":"stdout","time":649.462214636,"data":"Epoch 10 - Loss: 0.0770 - Src Val Macro F1: 0.9022\n"}
+,{"stream_name":"stdout","time":700.198192055,"data":"Epoch 11 - Loss: 0.0835 - Src Val Macro F1: 0.9044\n"}
+,{"stream_name":"stdout","time":700.198239351,"data":"Early stopping triggered.\n"}
+,{"stream_name":"stdout","time":751.76830548,"data":"ERM Target Acc: 0.5520, Domain Sep: 0.9994\n"}
+,{"stream_name":"stdout","time":751.944556273,"data":"Training DAN...\n"}
+,{"stream_name":"stdout","time":819.090434719,"data":"Epoch 1 - Loss: 0.9087 - Src Val Macro F1: 0.9036\n"}
+,{"stream_name":"stdout","time":884.169674072,"data":"Epoch 2 - Loss: 0.5415 - Src Val Macro F1: 0.9208\n"}
+,{"stream_name":"stdout","time":949.089111739,"data":"Epoch 3 - Loss: 0.4717 - Src Val Macro F1: 0.9105\n"}
+,{"stream_name":"stdout","time":1015.522343499,"data":"Epoch 4 - Loss: 0.4119 - Src Val Macro F1: 0.9323\n"}
+,{"stream_name":"stdout","time":1082.135132759,"data":"Epoch 5 - Loss: 0.3899 - Src Val Macro F1: 0.9185\n"}
+,{"stream_name":"stdout","time":1149.13103849,"data":"Epoch 6 - Loss: 0.3778 - Src Val Macro F1: 0.9259\n"}
+,{"stream_name":"stdout","time":1214.196009028,"data":"Epoch 7 - Loss: 0.3435 - Src Val Macro F1: 0.9331\n"}
+,{"stream_name":"stdout","time":1279.93209541,"data":"Epoch 8 - Loss: 0.3323 - Src Val Macro F1: 0.9433\n"}
+,{"stream_name":"stdout","time":1344.855884877,"data":"Epoch 9 - Loss: 0.3242 - Src Val Macro F1: 0.9421\n"}
+,{"stream_name":"stdout","time":1412.095622338,"data":"Epoch 10 - Loss: 0.3486 - Src Val Macro F1: 0.9014\n"}
+,{"stream_name":"stdout","time":1477.946597374,"data":"Epoch 11 - Loss: 0.3525 - Src Val Macro F1: 0.9296\n"}
+,{"stream_name":"stdout","time":1543.002418818,"data":"Epoch 12 - Loss: 0.3423 - Src Val Macro F1: 0.9404\n"}
+,{"stream_name":"stdout","time":1608.285281155,"data":"Epoch 13 - Loss: 0.3204 - Src Val Macro F1: 0.9284\n"}
+,{"stream_name":"stdout","time":1608.285334815,"data":"Early stopping triggered.\n"}
+,{"stream_name":"stdout","time":1656.003361363,"data":"DAN Target Acc: 0.7455, Domain Sep: 0.9125\n"}
+,{"stream_name":"stdout","time":1656.179412342,"data":"Training DANN...\n"}
+,{"stream_name":"stdout","time":1722.304241461,"data":"Epoch 1 - Loss: 1538.1330 - Src Val Macro F1: 0.0220\n"}
+,{"stream_name":"stdout","time":1786.724505253,"data":"Epoch 2 - Loss: 44.6270 - Src Val Macro F1: 0.0337\n"}
+,{"stream_name":"stdout","time":1850.477614451,"data":"Epoch 3 - Loss: 48.1334 - Src Val Macro F1: 0.0756\n"}
+,{"stream_name":"stdout","time":1915.716014327,"data":"Epoch 4 - Loss: 46.7250 - Src Val Macro F1: 0.0513\n"}
+,{"stream_name":"stdout","time":1979.502777018,"data":"Epoch 5 - Loss: 13.3762 - Src Val Macro F1: 0.0352\n"}
+,{"stream_name":"stdout","time":2044.828142264,"data":"Epoch 6 - Loss: 8.1462 - Src Val Macro F1: 0.0388\n"}
+,{"stream_name":"stdout","time":2110.248295382,"data":"Epoch 7 - Loss: 725319.2633 - Src Val Macro F1: 0.0390\n"}
+,{"stream_name":"stdout","time":2176.584126437,"data":"Epoch 8 - Loss: 1132101117.1788 - Src Val Macro F1: 0.0562\n"}
+,{"stream_name":"stdout","time":2176.584191776,"data":"Early stopping triggered.\n"}
+,{"stream_name":"stdout","time":2222.824606103,"data":"DANN Target Acc: 0.1965, Domain Sep: 0.9987\n"}
+,{"stream_name":"stdout","time":2222.983540724,"data":"Training CDAN...\n"}
+,{"stream_name":"stdout","time":2289.218354417,"data":"Epoch 1 - Loss: 1.0214 - Src Val Macro F1: 0.9015\n"}
+,{"stream_name":"stdout","time":2354.004388436,"data":"Epoch 2 - Loss: 1457597.4205 - Src Val Macro F1: 0.0500\n"}
+,{"stream_name":"stdout","time":2419.241951065,"data":"Epoch 3 - Loss: 3421.2736 - Src Val Macro F1: 0.0306\n"}
+,{"stream_name":"stdout","time":2485.300937223,"data":"Epoch 4 - Loss: 71.1795 - Src Val Macro F1: 0.0407\n"}
+,{"stream_name":"stdout","time":2552.854391937,"data":"Epoch 5 - Loss: 85.6427 - Src Val Macro F1: 0.0566\n"}
+,{"stream_name":"stdout","time":2618.343994894,"data":"Epoch 6 - Loss: 53.9449 - Src Val Macro F1: 0.0352\n"}
+,{"stream_name":"stdout","time":2618.34404698,"data":"Early stopping triggered.\n"}
+,{"stream_name":"stdout","time":2664.968174327,"data":"CDAN Target Acc: 0.7460, Domain Sep: 0.9994\n"}
+,{"stream_name":"stdout","time":2665.103688396,"data":"Results saved to results/task2_comparison.csv\n"}
+,{"stream_name":"stdout","time":2665.845746016,"data":"Training DAN with lambda=0.1\n"}
+,{"stream_name":"stdout","time":2732.69873427,"data":"Epoch 1 - Loss: 0.5942 - Src Val Macro F1: 0.8821\n"}
+,{"stream_name":"stdout","time":2800.290992525,"data":"Epoch 2 - Loss: 0.2922 - Src Val Macro F1: 0.9186\n"}
+,{"stream_name":"stdout","time":2870.901484145,"data":"Epoch 3 - Loss: 0.2087 - Src Val Macro F1: 0.8742\n"}
+,{"stream_name":"stdout","time":2943.103477,"data":"Epoch 4 - Loss: 0.1641 - Src Val Macro F1: 0.9177\n"}
+,{"stream_name":"stdout","time":3019.730891418,"data":"Epoch 5 - Loss: 0.1526 - Src Val Macro F1: 0.8759\n"}
+,{"stream_name":"stdout","time":3019.730943825,"data":"Early stopping triggered.\n"}
+,{"stream_name":"stdout","time":3070.687889999,"data":"Training DAN with lambda=1\n"}
+,{"stream_name":"stdout","time":3156.018929458,"data":"Epoch 1 - Loss: 0.9087 - Src Val Macro F1: 0.9036\n"}
+,{"stream_name":"stdout","time":3235.195633007,"data":"Epoch 2 - Loss: 0.5415 - Src Val Macro F1: 0.9208\n"}
+,{"stream_name":"stdout","time":3305.813439064,"data":"Epoch 3 - Loss: 0.4717 - Src Val Macro F1: 0.9105\n"}
+,{"stream_name":"stdout","time":3373.958237605,"data":"Epoch 4 - Loss: 0.4119 - Src Val Macro F1: 0.9323\n"}
+,{"stream_name":"stdout","time":3442.434185035,"data":"Epoch 5 - Loss: 0.3899 - Src Val Macro F1: 0.9185\n"}
+,{"stream_name":"stdout","time":3510.027431319,"data":"Epoch 6 - Loss: 0.3778 - Src Val Macro F1: 0.9259\n"}
+,{"stream_name":"stdout","time":3580.607345808,"data":"Epoch 7 - Loss: 0.3435 - Src Val Macro F1: 0.9331\n"}
+,{"stream_name":"stdout","time":3657.213007503,"data":"Epoch 8 - Loss: 0.3323 - Src Val Macro F1: 0.9433\n"}
+,{"stream_name":"stdout","time":3744.85353479,"data":"Epoch 9 - Loss: 0.3242 - Src Val Macro F1: 0.9421\n"}
+,{"stream_name":"stdout","time":3819.591882334,"data":"Epoch 10 - Loss: 0.3486 - Src Val Macro F1: 0.9014\n"}
+,{"stream_name":"stdout","time":3905.629930084,"data":"Epoch 11 - Loss: 0.3525 - Src Val Macro F1: 0.9296\n"}
+,{"stream_name":"stdout","time":3905.629971077,"data":"Early stopping triggered.\n"}
+,{"stream_name":"stdout","time":3960.134330245,"data":"Training DAN with lambda=10\n"}
+,{"stream_name":"stdout","time":4058.388613583,"data":"Epoch 1 - Loss: 5.1898 - Src Val Macro F1: 0.0671\n"}
+,{"stream_name":"stdout","time":4156.301196599,"data":"Epoch 2 - Loss: 4.7009 - Src Val Macro F1: 0.1042\n"}
+,{"stream_name":"stdout","time":4250.283923359,"data":"Epoch 3 - Loss: 4.7483 - Src Val Macro F1: 0.1406\n"}
+,{"stream_name":"stdout","time":4353.171824491,"data":"Epoch 4 - Loss: 4.6039 - Src Val Macro F1: 0.1534\n"}
+,{"stream_name":"stdout","time":4429.929722238,"data":"Epoch 5 - Loss: 4.6356 - Src Val Macro F1: 0.1586\n"}
+,{"stream_name":"stdout","time":4496.361374436,"data":"Epoch 6 - Loss: 4.3125 - Src Val Macro F1: 0.1769\n"}
+,{"stream_name":"stdout","time":4562.513127471,"data":"Epoch 7 - Loss: 4.4263 - Src Val Macro F1: 0.1670\n"}
+,{"stream_name":"stdout","time":4632.258982494,"data":"Epoch 8 - Loss: 4.4057 - Src Val Macro F1: 0.1294\n"}
+,{"stream_name":"stdout","time":4699.254977907,"data":"Epoch 9 - Loss: 4.3266 - Src Val Macro F1: 0.1351\n"}
+,{"stream_name":"stdout","time":4699.255141208,"data":"Early stopping triggered.\n"}
+,{"stream_name":"stderr","time":4756.098499435,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4756.098565378,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4756.335096704,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4756.335136881,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4757.040429294,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4757.542908787,"data":"[NbConvertApp] Writing 892560 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4759.924722499,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4761.028837521,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":4761.028885672,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":4761.029199216,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":4761.029515425,"data":"[NbConvertApp] Writing 983880 bytes to __results__.html\n"}
+]

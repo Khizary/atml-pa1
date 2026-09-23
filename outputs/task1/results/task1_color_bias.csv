@@ -1,0 +1,5 @@
+Model,Grayscale Acc Drop,Grayscale Consistency,Hue Acc Drop,Hue Consistency
+resnet,0.028,0.956,0.046,0.934
+vit,0.02,0.958,0.042,0.948
+clip,0.05,0.934,0.056,0.924
+clip_zs,0.03,0.926,0.022,0.924

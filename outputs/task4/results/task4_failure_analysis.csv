@@ -1,0 +1,7 @@
+Type,Predicted_CIFAR10,Score,Threshold
+Near,cat,-8.51162,-5.8807383
+Near,ship,-6.2938027,-5.8807383
+Near,automobile,-10.90835,-5.8807383
+Far,bird,-6.9946313,-5.8807383
+Far,frog,-5.8877835,-5.8807383
+Far,cat,-7.97974,-5.8807383

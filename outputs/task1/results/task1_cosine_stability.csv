@@ -1,0 +1,13 @@
+Model,Transform,Cosine Stability
+resnet,Grayscale,0.8036
+resnet,Translation 32px,0.9202
+resnet,Patch Shuffle,0.6991
+resnet,Cue Conflict,0.7024
+vit,Grayscale,0.7331
+vit,Translation 32px,0.9491
+vit,Patch Shuffle,0.6322
+vit,Cue Conflict,0.6714
+clip,Grayscale,0.8859
+clip,Translation 32px,0.96
+clip,Patch Shuffle,0.7542
+clip,Cue Conflict,0.8358
