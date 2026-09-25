@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+/outputs/task4/data
+# Allow these
+!/Submission/
+!/Submission/**
+!/outputs/
+!/outputs/**
+!/ATML-PA1.pdf
+!/README.md
+!/.gitignore
